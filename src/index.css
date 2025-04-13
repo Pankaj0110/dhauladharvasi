@@ -23,6 +23,7 @@
 @font-face {
   font-family: 'dvasi-roboto';
   font-weight: 400;
+  font-style: italic;
   src: url('./assets/fonts/Roboto-Italic.woff2') format('woff2'),
        url('./assets/fonts/Roboto-Italic.woff') format('woff');
 }
