@@ -10,7 +10,7 @@ import Carousel from '../../components/carousel';
 const Landing = () => {
   return (
     <div className={classes.landing}>
-      <Carousel />
+     {/*  <Carousel /> */}
     </div>
   )
 }
