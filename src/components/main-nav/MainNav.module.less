@@ -1,0 +1,33 @@
+/*
+ All Rights Reserved By DhauladharVasi (Dhauladhar Vasi)
+*/
+
+@import url('../../common/utils/common.module.less');
+
+.mainNav {
+  box-shadow: -1px 8px 18px -2px rgba(0,0,0,0.75);
+  height: (96 / @rem);
+  z-index: 999;
+  border-bottom: 1px solid var(--color-black);
+
+  .mainNavWrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        list-style: none;
+      }
+    }
+
+    .heading {
+      color: var(--color-black);
+      font-size: (32 / @rem);
+      font-family: 'dvasi-roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 700;
+    }
+  }
+}
